@@ -13,7 +13,7 @@ Codeigniter custom library. CImage is like CI upload/crop/resize image. CImage f
 ###
     $config['source'] = 'your/source/path/in/here'; //or your URL
     $config['path_destination']= 'your/destination/path/in/here';
-    $config['size_source'] = '60x62|75x75|150x150|268x273|300x225|500x233|730x340|1024x768'; //size you want
+    $config['size_source'] = '60x62|75x75|150x150|268x273|300x225|500x233|730x340|1024x768'; //the size that you want
     $config['image_quality'] = 90; //image qualitiy
     $config['base_coordinate'] = 'center'; //start position image cropping
     $config['rename_random'] = FALSE; //if you are not use random to rename put the FALSE
